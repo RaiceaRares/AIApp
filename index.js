@@ -29,7 +29,7 @@ const chain = new langchain.Chain({
 let examples = [];
 
 async function loadExamples() {
-  const filePath = path.join(__dirname, "uploads", "your-file-name.docx");
+  const filePath = path.join(__dirname, "uploads", "Oferta - Test 1.docx");
   examples = await extractExamplesFromLocal(filePath);
 }
 
